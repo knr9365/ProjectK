@@ -4,10 +4,16 @@
   "description": "projectk by KNR",
   "main": "index.js",
   "dependencies": {
+    "body-parser": "^1.17.2",
     "express": "^4.15.4",
-    "pug": "^2.0.0-rc.3"
+    "morgan": "^1.8.2",
+    "pug": "^2.0.0-rc.3",
+    "stylus": "^0.54.5",
+    "toastr": "^2.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "bower": "^1.8.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
