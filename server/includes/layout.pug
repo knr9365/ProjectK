@@ -5,7 +5,9 @@ html
         link(rel="stylesheet", href="/css/bootstrap.css")
         link(rel="stylesheet", href="/vendor/toastr/toastr.css")
         link(rel="stylesheet", href="/css/site.css")
-
-    body
+        base(href="/") 
+        //-- according to latest version of Angular js this is required -- for newer versions
+    
+    body(ng-app='app')
         block main-content
         include scripts
