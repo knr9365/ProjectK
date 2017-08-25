@@ -1,0 +1,27 @@
+{
+  "name": "projectk",
+  "version": "1.0.0",
+  "description": "projectk by KNR",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.4",
+    "pug": "^2.0.0-rc.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knr9365/ProjectK.git"
+  },
+  "keywords": [
+    "projectk"
+  ],
+  "author": "KNR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knr9365/ProjectK/issues"
+  },
+  "homepage": "https://github.com/knr9365/ProjectK#readme"
+}
